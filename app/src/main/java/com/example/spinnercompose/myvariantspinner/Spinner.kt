@@ -1,4 +1,4 @@
-package com.example.spinnercompose
+package com.example.spinnercompose.myvariantspinner
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
