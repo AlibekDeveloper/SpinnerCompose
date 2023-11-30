@@ -68,6 +68,12 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-test-manifest")
 
     implementation("androidx.compose.runtime:runtime-livedata:1.5.4")
-    implementation ("androidx.compose.material3:material3:1.1.2")
+    implementation("androidx.compose.material3:material3:1.1.2")
+    //Custom Spinner
+    implementation("com.github.skydoves:powerspinner:1.2.7")
+    implementation("androidx.constraintlayout:constraintlayout-compose:1.0.1")
+    implementation("androidx.lifecycle:lifecycle-common-java8:2.6.2")
+    implementation("androidx.appcompat:appcompat:1.6.1")
+
 
 }

@@ -1,4 +1,4 @@
-package com.example.spinnercompose
+package com.example.spinnercompose.myvariantspinner
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Row
@@ -22,6 +22,7 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.example.spinnercompose.R
 
 @Composable
 fun MySpinner(
@@ -36,7 +37,7 @@ fun MySpinner(
             .fillMaxWidth()
             .padding(horizontal = 20.dp)
             .offset(y = 24.dp),
-        dropDownModifier = Modifier.wrapContentSize(),
+        dropDownModifier = Modifier.fillMaxWidth(),
         items = items,
         selectedItem = selectedItem,
         onItemSelected = onItemSelected,
